@@ -6,7 +6,7 @@ public class FirstPersonController : MonoBehaviour {
 
     [Header("Movement")]
     public float walkSpeed = 6f;
-    public float
+    public float walkMod = 0.5f;
 
     [Header("Camera")]
     public Transform cameraTransform;
