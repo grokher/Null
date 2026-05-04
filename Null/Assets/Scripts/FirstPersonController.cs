@@ -28,8 +28,9 @@ public class FirstPersonController : MonoBehaviour {
     {
         if (canMove)
         {
-            Move();
+            
         }
+        Move();
     }
 
     private void Update()
