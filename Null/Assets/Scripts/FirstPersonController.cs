@@ -50,8 +50,8 @@ public class FirstPersonController : MonoBehaviour {
 
     void Move()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
 
         Vector3 inputDirection = (transform.forward * v + transform.right * h).normalized;
         Vector3 moveVelocity = inputDirection * walkSpeed;
